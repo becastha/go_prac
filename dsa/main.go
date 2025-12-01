@@ -15,4 +15,12 @@ func main() {
 	} else {
 		fmt.Println("Helppp we lost it ")
 	}
+
+	// for the recursive
+	index2 := binary_search.BinarySearchRecursive(arr, num)
+	if index2 >= 0 {
+		fmt.Println("Found the numeber", num)
+	} else {
+		fmt.Println("Helppp we lost it ")
+	}
 }
